@@ -33,8 +33,8 @@ let getDistanceHint = function (distance) {
 };
 
 //Создаем переменные
-let width = 800;
-let height = 800;
+let width = $("#map").attr("width");
+let height = $("#map").attr("height");
 let clicks = 0;
 
 //Случайная позиция клада
